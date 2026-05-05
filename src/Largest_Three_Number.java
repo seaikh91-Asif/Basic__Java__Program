@@ -22,7 +22,7 @@ public class Largest_Three_Number {
             max = c;
         }
 
-        // for output
+        // for providing the output for the user
         System.out.println("the larget number is =  " + max);
     }
 }
