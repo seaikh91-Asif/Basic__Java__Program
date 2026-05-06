@@ -9,8 +9,7 @@ public class PrintNumber_from_One_to_n {
         System.out.print("Enter the number till you want to print: ");
         int n = input.nextInt();
 
-        // the main logic part
-        // and alos the output part
+        // the processing part and the output part
         for (int i = 0; i <= n; i++){
             System.out.println(i);
         }
