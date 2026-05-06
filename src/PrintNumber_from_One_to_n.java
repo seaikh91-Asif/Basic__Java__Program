@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class PrintNumber_from_One_to_n {
     public static void main(String[] args){
+
         Scanner input = new Scanner(System.in);
 
         // for taking input from the user
