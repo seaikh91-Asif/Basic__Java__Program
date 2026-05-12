@@ -7,13 +7,13 @@ public class Roots_of_quadraticEquation {
         System.out.println("Quadratic Equation format: ax^2 + bx + c = 0");
 
         // a, b, and c er value input neoa
-        System.out.print("Enter value for 'a': ");
+        System.out.print("Enter value for a: ");
         double a = scanner.nextDouble();
 
-        System.out.print("Enter value for 'b': ");
+        System.out.print("Enter value for b: ");
         double b = scanner.nextDouble();
 
-        System.out.print("Enter value for 'c': ");
+        System.out.print("Enter value for 1c: ");
         double c = scanner.nextDouble();
 
         // Discriminant (D) calculate kora: D = b^2 - 4ac
@@ -24,7 +24,7 @@ public class Roots_of_quadraticEquation {
             // D > 0 hole duti alada real root thakbe
             double root1 = (-b + Math.sqrt(d)) / (2 * a);
             double root2 = (-b - Math.sqrt(d)) / (2 * a);
-            System.out.println("\nRoots are real and distinct (alada).");
+            System.out.println("\nRoots are real and distinct.");
             System.out.println("Root 1 = " + root1);
             System.out.println("Root 2 = " + root2);
         }
