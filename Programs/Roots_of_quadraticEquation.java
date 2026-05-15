@@ -21,7 +21,7 @@ public class Roots_of_quadraticEquation {
 
 
         if (d > 0) {
-            // D > 0 hole duti alada real root thakbe
+
             double root1 = (-b + Math.sqrt(d)) / (2 * a);
             double root2 = (-b - Math.sqrt(d)) / (2 * a);
             System.out.println("\nRoots are real and distinct.");
