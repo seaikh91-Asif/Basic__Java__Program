@@ -4,7 +4,7 @@ public class PrimeNumber {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a number that you want to cheach: ");
         int num = scanner.nextInt();
 
         boolean isPrime = true;
