@@ -6,7 +6,8 @@ public class PowerOfTwoOrNot_IN_Bitwaise {
         Scanner scanner = new Scanner(System.in);
         System.out.print("enter a number: ");
         int n = scanner.nextInt();
-        boolean ans = (n & (n - 1)) == 0;
+
+        boolean ans = (n > 0) && (n & (n - 1)) == 0;
         System.out.println(ans);
     }
 }
