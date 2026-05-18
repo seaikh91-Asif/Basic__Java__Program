@@ -13,7 +13,7 @@ The programs in this repository are kept organized to track my learning journey 
 
 ## 🛠️ Tech Stack
 - **Language:** Java ☕
-- **IDE/Tools:** VS Code / IntelliJ IDEA
+- **IDE/Tools:**  IntelliJ IDEA
 
 ## 👨‍💻 Author
 **Sekh Asif**
